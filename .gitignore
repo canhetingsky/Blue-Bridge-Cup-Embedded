@@ -54,5 +54,24 @@
 *.uvgui.*
 *.uvguix.*
 
+# canhetingsky add begin
+*.crf
+*.sct
+*.axf
+*.htm
+*.bak
+*.ddk
+*.edk
+*.mpf
+*.omf
+!*.opt #不忽略JLINK的设置
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.tra
+JLinkLog.txt
+*.iex
+# canhetingsky add end
 
 # End of https://www.gitignore.io/api/keil
